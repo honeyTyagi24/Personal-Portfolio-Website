@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey Tyagi Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/9e01488dcd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo1.png-removebg-preview (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Developer</p>
+                <h1>Hi, I'm <span>Honey</span> Tyagi</h1>
+            </div>
+        </div>
+    </div>
+    <!----about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/IMG-PHOTO-imresizer-removebg-preview-PhotoRoom.png-PhotoRoom.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I am skilled Web Developer with expertise in building responsive and scalable web
+                        applications using modern Front-end and Back-end technologies. In addition, I possess solid
+                        knowledege of HTML, CSS, Javascript and Bootstrap with the ability to quickly learn new
+                        technologies. Demonstrated success in identifying and resolving Complex code issues.
+                        Detailed-oriented team player with strong organizational skills. Ability to handle multiple
+                        project simultaneously with a high degree of accuracy. Seeking and maintaining a full-time
+                        position that offers professional challenges utilizing interpersonal skills, excellent time
+                        management and problem-solving skills</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Figma<br>Canva</li>
+                            <li><span>Front-end Web
+                                    Development</span><br>HTML<br>CSS<br>JavaScript<br>Bootstrap<br>React.js</li>
+                            <li><span>Back-end Web Development</span><br>Node.js<br>Express<br>MongoDB</li>
+                            <li><span>Programming</span><br>C++<br>C<br>Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span>Internships</span><br>Oasis Infobyte<br>Bharat Intern<br>Salesforce<br>IIPC OF
+                                KIET</li>
+                            <li><span>Projects</span><br>E-commerce Website<br>Spotify
+                                Front-end<br>Claculator<br>Netflix Front-end<br>WeatherApplication<br>Temperature
+                                Converter Website<br>Gym Website landing page</li>
+                            <li><span>Projects( Hardware)</span><br>Development of an IOT-enabled application to give
+                                real-time parking space availability in campus<br>Energy Efficient Wireless Sensor
+                                Network For Temperature And Humidity Measurement</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>College</span><br>Kiet Group of Institutions, Ghaziabad</li>
+                            <li><span>Degree</span><br>Bachelor of Technology</li>
+                            <li><span>Course</span><br>Electronics& Communications Engineering</li>
+                            <li><span>Certifications</span><br>C++ by Programming Hero<br>C by Programming Hero<br>Web
+                                Development from Scratch by Eduonix</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------services----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>As an expert web designer, I posses a wealth of knowledge and skills that allow me to create
+                        dynamic and engagubg websites that captivate users and drive results. My mastery of design
+                        principles, coding languages, and content management systems enables me to seamlessely blend
+                        form and function, creating visually stunning websites that are also easy to use and navigate.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>As an expert UI/UX designer, I possess a unique combination of skills that allows me to create
+                        compelling digital experiences that engage and delight users. I have deep understanding of user
+                        needs and behavior, as well as my mastery of design principles and tools, enable me to craft
+                        intuitive interfaces that are both functional and visually appealing
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Full Stack Web Development</h2>
+                    <p> As an expert full-stack web developer, I possess a comprehensive set of skills and knowledge
+                        that allow me to build robust and dynamic web applications that can handle complex data
+                        processing and user interactions. My proficiency in both front-end and back-end technologies,
+                        including HTML, CSS, JavaScript, databases, server-side scripting languages, and web frameworks,
+                        enables me to create seamless and intuitive digital experiences.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Developed a full-fledged Youtube Clone.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Developed a Spotify Clone.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Developed an E-Commerce Website.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------------contact------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>honey24tyagi@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9045347520</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/honey.tyagi.50552?mibextid=2JQ9oc"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/i_am_honey_tyagi?igsh=dGM5NndhdjJjZmdp"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/HoneyTyagi02?t=K2JjO4DZ6j0lNA2uUPZcWA&s=08"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/honey-tyagi-4a31ab24a"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/honeyTyagi24"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Images/resume_new.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Honey Tyagi. Made with <i class="fa-solid fa-heart"></i> by Honey Tyagi.
+            </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzfp6_AEWg0u3lHfrWJWw5P8PqJCfPvVOapEjZY7hlCPVUDPbCsDHBISQ7ya66t81aJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Thank you for reaching out! I'll get back to you shortly."
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
